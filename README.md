@@ -9,7 +9,9 @@ In this project, we train a CNN that learns features from raw pixel data, enabli
 
 ## Dataset
 
-- **Source:** [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
+- **Source:** Automatically loaded via:
+from tensorflow.keras.datasets import mnist
+
 - **Size:** 60,000 training images, 10,000 test images
 - **Image Size:** 28 x 28 pixels, grayscale
 - **Classes:** Digits from 0 to 9 (10 classes)
